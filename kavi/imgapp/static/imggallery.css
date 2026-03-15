@@ -1,0 +1,71 @@
+body
+{
+    background: url("igbg.jpg")no-repeat bottom / cover;
+}
+.container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgb(250, 246, 248);
+    width: fit-content;
+    padding:20px;
+    margin: 70px auto; 
+    flex-direction: column;
+    border-radius: 10px;
+    border-right:#483e96 solid 7px;
+    border-bottom:#7bb0d6 solid 7px;
+}
+.image-box img
+{
+    width:450px;
+    height:330px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: outset rgb(80, 153, 199) 5px;
+}
+.image-box, .about
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(242, 244, 245) 5px;
+    
+}
+.buttons
+{
+    display: flex;
+    gap: 10px;             
+    margin-top: 15px;
+    background-color: #74cff9; 
+    padding: 8px;
+    border-radius: 8px;
+   
+}
+button
+{
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #e1dce2;
+    color: rgb(61, 68, 69);
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    border: outset rgb(31, 92, 131) 5px;
+}
+
+.footer p
+{
+    position:fixed;
+    background-color: rgb(31, 92, 131);
+    left:0;
+    bottom:0;
+    width:100%;
+    color:rgb(247, 241, 241);
+    text-align: center;
+    font-size: 18px;
+    padding: 3px;
+    margin-bottom: 0px;
+}
