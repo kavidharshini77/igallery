@@ -35,7 +35,7 @@ Imggallery.html
         <script src="imggallery.js"></script>
     </head>
     <body>
-        <h1 text align="center" text color="white">TRAVEL DESTINATIONS GALLERY</h1>
+        <h1 text align="center">TRAVEL DESTINATIONS GALLERY</h1>
         <div class="container">
 
             <div class="image-box">
